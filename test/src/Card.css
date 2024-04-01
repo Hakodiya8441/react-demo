@@ -1,0 +1,33 @@
+.div_card_main{
+    width: 300px;
+    height: 600px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 3px 3px 5px brown;
+}
+
+.card_img{
+    width: 300px;
+    height: 400px;
+}
+.card_title{
+   color: Red;
+    font-style: oblique;
+    text-align: center;
+}
+.card_desc{
+    color: chartreuse;
+    font-style: italic;
+    text-align: center;
+}
+
+.card_btn{
+    background-color: green;
+    color:white;
+    padding: 8px 20px;
+    margin-left: 100px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
