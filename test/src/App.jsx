@@ -7,7 +7,8 @@
 // import Count from "./Day4/Count";
 // import Example from "./Day4/Example";
 // import State from "./Day4/State";
-import Form from "./Day5/Form";
+// import Form from "./Day5/Form";
+import Todo from "./Todo/Todo";
 
 
 function App(){
@@ -99,7 +100,8 @@ function App(){
      <Example/>
      <State/>
      <Count/> */}
-     <Form/>
+     {/* <Form/> */}
+     <Todo/>
         </>
     )
 }
