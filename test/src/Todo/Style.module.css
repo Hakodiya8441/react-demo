@@ -12,6 +12,12 @@
     width: 300px;
     height: 300px;
     color: rgb(182, 196, 61);
+    margin-left: 4px;
+}
+.todo_main h1:hover{
+    color: rgb(217, 56, 56);
+    cursor: pointer;
+    text-shadow: 2px 2px 10px white;
 }
 
 .input{
@@ -22,6 +28,28 @@
     border-top-left-radius: 20px;
     /* margin-top: 60px; */
     margin-left: 8px;
+    
+}
+.icon{
+    float: right;
+    cursor: pointer;
+    margin-right: 10px;
+    color: rgb(137, 137, 137);
+}
+.icon:hover{
+    cursor: pointer;
+    color:rgb(217, 56, 56);
+    text-shadow: 1px 1px 8px white;
+}
+.icon_edit{
+    float: right;
+    margin-right: 40px;
+    color:rgb(217, 56, 56);
+}
+.icon_edit:hover{
+    color: rgb(137, 137, 137);
+    cursor: pointer;
+    text-shadow: 2px 2px 8px white;
     
 }
 
@@ -42,7 +70,9 @@
 }
 
 .list{
+    margin-top: 10px;
     color:black;
     font-weight: bold;
     font-size: 15px;
+    margin-left: 10px;
 }
